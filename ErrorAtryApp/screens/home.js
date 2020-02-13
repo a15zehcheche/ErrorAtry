@@ -1,11 +1,15 @@
-import React, { Component } 　from 'react'
+import React, { Component } from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import Header from '../components/header'
+import Calendar from '../components/calendar'
 export default function App() {
   return (
     <View style={styles.container}>
       <Header name="Home" />
-      <Text>home</Text>
+  
+      <View>
+        <Text>home</Text>
+      </View>
     </View>
   );
 }

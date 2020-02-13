@@ -18,3 +18,27 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
+
+
+/*
+import React, { Component } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default class NavigationBar extends Component {
+    render() {
+        return (
+            <View style={styles.bar}>
+                <Text>example</Text>
+            </View>
+        );
+
+    }
+
+}
+const styles = StyleSheet.create({
+    container: {
+
+    },
+  
+});
+*/ 
