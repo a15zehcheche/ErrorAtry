@@ -6,9 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Header name="Home" />
-  
+      <Calendar/>
       <View>
-        <Calendar/>
         <Text>home</Text>
       </View>
     </View>

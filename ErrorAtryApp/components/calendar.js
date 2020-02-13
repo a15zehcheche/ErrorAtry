@@ -35,7 +35,7 @@ export default class Calendar extends Component {
                     </View>
                 </View>
                 <View style={styles.calendar}>
-                    <Text>
+                    <Text style={styles.fontStyle}>
                         calendar
                     </Text>
                 </View>
@@ -47,31 +47,36 @@ export default class Calendar extends Component {
 }
 const styles = StyleSheet.create({
     container: {
-        flex: '1',
         flexDirection: 'row',
         backgroundColor: '#ccc',
-        height: 50,
         alignItems: 'center',
+        width: '100%',
+        height: 50,
     },
     dayContainer:{
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent:'space-around',
+        width:'80%',
     },
     day: {
         justifyContent: 'center',
         alignItems: 'center',
-        height: 38,
-        width: 38,
-        marginHorizontal: 2,
+        height: 35,
+        width: 35,
         backgroundColor: 'red',
         borderRadius: 10
     },
     calendar: {
         flex:1,
         height: 50,
-        
+        justifyContent:'center',
+        alignItems:'center',
         backgroundColor: '#435',
         marginHorizontal: 2,
     },
+    fontStyle: {
+        color:'#a3a3a3',
+        fontSize:14,
+    }
 
 });
